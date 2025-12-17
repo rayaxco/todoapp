@@ -189,7 +189,8 @@
                 last_name: data.lastname,
                 role: data.role,
                 phone_number: data.phone_number,
-                password: data.password
+                hashed_password: data.password,
+                is_active:true
             };
 
             try {
